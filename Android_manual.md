@@ -13,3 +13,4 @@
 - 全てのライセンスで「Accept」をクリックすると「Finish」が活性かするためクリックしてインストールを完了する
 
 ## Android Studio日本語化
+https://qiita.com/kosh1/items/e8d9a312299aff3261ca
