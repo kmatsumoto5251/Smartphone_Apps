@@ -1,7 +1,9 @@
 ## Andoroidアプリを作成する
 ## 目次
-- Android Studioインストール
+- [Android Studioインストール](#anchor1)
+- [Android Studio日本語化](#anchor2)
 
+<a id="anchor1"></a>
 ## Android Studioインストール
 - [https://developer.android.com/studio/](https://developer.android.com/studio/)にアクセスする
 - 「Download Android Studio」をクリックする
@@ -12,6 +14,7 @@
 - ライセンス同意画面で各ライセンスをクリック後、右下の「Accept」をクリックする（左側のツリーのトップ階層をクリックして選択する）
 - 全てのライセンスで「Accept」をクリックすると「Finish」が活性かするためクリックしてインストールを完了する
 
+<a id="anchor2"></a>
 ## Android Studio日本語化
 - Android Studioを起動する
 - 画面左下の歯車 > aboutをクリックし、バージョンを確認する
