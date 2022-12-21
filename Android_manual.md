@@ -13,4 +13,27 @@
 - 全てのライセンスで「Accept」をクリックすると「Finish」が活性かするためクリックしてインストールを完了する
 
 ## Android Studio日本語化
-https://qiita.com/kosh1/items/e8d9a312299aff3261ca
+- Android Studioを起動する
+- 画面左下の歯車 > aboutをクリックし、バージョンを確認する
+
+　　![image](https://user-images.githubusercontent.com/87625373/208794823-21b746d8-899b-451e-a465-849a38111bde.png)
+　　![image](https://user-images.githubusercontent.com/87625373/208795180-9e6c35bb-6bd2-40ec-8a89-fd5353562655.png)
+
+- [https://plugins.jetbrains.com/plugin/13964-japanese-language-pack------/versions](https://plugins.jetbrains.com/plugin/13964-japanese-language-pack------/versions)にアクセスする
+- バージョンが一致するプラグインをダウンロードする（メジャーバージョンのみ一致すればよい）
+
+　　![image](https://user-images.githubusercontent.com/87625373/208795818-2c21a8c4-6e28-4b61-92e8-241bc92142e1.png)
+
+- ダウンロードしたzipファイルを解凍し、「C:\Program Files\Android\Android Studio\plugins」にフォルダごと配置する
+- Android Studio の Plugins > 右上の歯車 > Install Plugin from Disk を選択する
+
+　　![image](https://user-images.githubusercontent.com/87625373/208794100-c1d7e6e5-942e-4483-bfb1-2511743273b3.png)
+
+- プラグイン配置したフォルダ内にある「ja.xxx.jar」を選択し、OKをクリックする
+
+　　![image](https://user-images.githubusercontent.com/87625373/208796680-2f47eb23-489e-4836-b001-110467e76747.png)
+
+- 「Restart IDE」と表示されるので、Android Studio を再起動する
+- 再起動が完了すると日本語になる
+
+
