@@ -3,6 +3,7 @@
 - [Android Studioインストール](#anchor1)
 - [Android Studio日本語化](#anchor2)
 - [プロジェクト作成](#anchor3)
+- [仮想デバイス登録・起動](#anchor4)
 
 - [メモ](#anchor99)
 
@@ -68,6 +69,18 @@ netsh winhttp show proxy
 - プロキシサーバ設定後、下記のようなネットワーク関連のエラーが発生する場合はLAN内のSSLデコード除外などが必要となるためネットワーク管理者に確認する
 
     ![image](https://user-images.githubusercontent.com/87625373/208832806-330b3082-b8b2-4256-9db7-dfaf2e8a880f.png)
+
+<a id="anchor4"></a>
+## 仮想デバイス登録・起動
+Android Studio内で起動する仮想デバイス（仮想スマホ）を登録・起動する
+- デフォルトで登録済みの仮想デバイスが右上に表示される
+
+    ![image](https://user-images.githubusercontent.com/87625373/208850987-2613329f-e333-4c1b-8d5b-46ca8f8caf9c.png)
+
+- 新規仮想デバイスを追加する場合は「Create device」から登録する（手順は[こちら](https://pouhon.net/android-avd/4698/)を参照）
+- 対象デバイスの「▶」をクリックするとEmulatorが起動し、仮想デバイスが表示される
+
+    ![image](https://user-images.githubusercontent.com/87625373/208850058-73d30a5c-e716-4d03-8562-3dca1534ee0d.png)
 
 
 <a id="anchor99"></a>
