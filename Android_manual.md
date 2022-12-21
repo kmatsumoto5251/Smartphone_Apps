@@ -79,6 +79,7 @@ Android Studio内で起動する仮想デバイス（仮想スマホ）を登録
 
 - 新規仮想デバイスを追加する場合は「Create device」から登録する（手順は[こちら](https://pouhon.net/android-avd/4698/)を参照）
 - 対象デバイスの「▶」をクリックするとEmulatorが起動し、仮想デバイスが表示される
+  - 初回起動時は時間がかかるためしばらく待つ 
 
     ![image](https://user-images.githubusercontent.com/87625373/208850058-73d30a5c-e716-4d03-8562-3dca1534ee0d.png)
 
