@@ -72,4 +72,6 @@ netsh winhttp show proxy
 
 <a id="anchor99"></a>
 ## メモ
-[Kotolinで始めるAndroidアプリ入門](https://qiita.com/k-ysd/items/4efdecdfd60afe333a3a)
+- [Kotolinで始めるAndroidアプリ入門](https://qiita.com/k-ysd/items/4efdecdfd60afe333a3a)
+- [新規プロジェクトを作成する方法](https://original-game.com/develop-android-app-2/)
+- [エミュレータの作成とコード実行](https://pouhon.net/android-avd/4698/)
