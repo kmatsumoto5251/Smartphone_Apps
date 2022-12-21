@@ -4,6 +4,8 @@
 - [Android Studio日本語化](#anchor2)
 - [プロジェクト作成](#anchor3)
 
+- [メモ](#anchor99)
+
 <a id="anchor1"></a>
 ## Android Studioインストール
 - [https://developer.android.com/studio/](https://developer.android.com/studio/)にアクセスする
@@ -40,6 +42,7 @@
 - 「Restart IDE」と表示されるので、Android Studio を再起動する
 - 再起動が完了すると日本語になる
 
+<a id="anchor3"></a>
 ## プロジェクト作成
 - プロジェクト > New Projectをクリックする
 - 画面レイアウトのテンプレートを任意で選択し次へをクリックする
@@ -51,11 +54,16 @@
   - プロキシ設定を行わないとhttp403エラーなどが発生する可能性あり
 - ファイル > 設定 > システム設定 > HTTPプロキシ に遷移し、IPアドレスやポート番号を入力後、OKをクリックする
 
-![image](https://user-images.githubusercontent.com/87625373/208830056-f54e6b07-59c4-4c8f-8a44-1fc9a1644871.png)
+    ![image](https://user-images.githubusercontent.com/87625373/208830056-f54e6b07-59c4-4c8f-8a44-1fc9a1644871.png)
 
 - プロキシサーバの情報はコマンドプロンプトやPowerShellから以下のコマンドで確認が可能
 ```
 netsh winhttp show proxy
 ```
+- プロキシサーバ設定後、下記のようなネットワーク関連のエラーが発生する場合はLAN内のSSLデコード除外などが必要となる
 
+    ![image](https://user-images.githubusercontent.com/87625373/208832806-330b3082-b8b2-4256-9db7-dfaf2e8a880f.png)
+
+
+<a id="anchor99"></a>
 ## メモ
