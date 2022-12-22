@@ -4,7 +4,6 @@
 - [Android Studio日本語化](#anchor2)
 - [プロジェクト作成](#anchor3)
 - [仮想デバイス登録・起動](#anchor4)
-- [Android Studioおすすめ設定](#anchor5)
 
 - [メモ](#anchor99)
 
