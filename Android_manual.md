@@ -99,3 +99,4 @@ Android Studio内で起動する仮想デバイス（仮想スマホ）を登録
 - [新規プロジェクトを作成する方法](https://original-game.com/develop-android-app-2/)
 - [エミュレータの作成とコード実行](https://pouhon.net/android-avd/4698/)
 - [エミュレータのシステム要件と操作方法](https://developer.android.com/studio/run/emulator?hl=ja#requirements)
+- [HUAWEI製デバイスで実機テストするための準備](https://pouhon.net/android-connection/4619/)
