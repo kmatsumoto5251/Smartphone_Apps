@@ -103,12 +103,10 @@
 ## ソースコード管理
 - クラウド上での管理となるがGitHubが一般的
 - 近年エンジニアはソースコードのみならず様々なドキュメントをGitHubで管理している
+  - [Gitについて](https://www.anken-navi.jp/news/work-freelance/git-description/)
 - 社内だけで管理する場合はGitHubのようなサイトを独自に運用できる「GitLab」を構築するという選択肢もあり
-- GitLabはシステム管理Gにサーバを構築してもらう
-
-[Gitについて](https://www.anken-navi.jp/news/work-freelance/git-description/)
-
-[Git独自運用](https://knowledge.sakura.ad.jp/3005/)
+  - [Git独自運用](https://knowledge.sakura.ad.jp/3005/)
+- GitLabはインフラ担当に構築してもらう
 
 <a id="anchor15"></a>
 ## 開発手法
