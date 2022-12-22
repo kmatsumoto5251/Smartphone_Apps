@@ -85,10 +85,12 @@ Android Studio内で起動する仮想デバイス（仮想スマホ）を登録
 
 - 仮想デバイス操作可能となったら、システムやアプリの言語を日本語化する（エミュレータの操作方法や日本語化は[こちら](https://pouhon.net/android-avd/4698/)を参照）
 - エミュレータ操作時に「system ui isn't responding」と表示され応答しない場合はしばらく操作せずに待つ
-  - おそらくはパソコンの性能による動作遅延と思われるため、メモリは16GB以上あった方が良い（8GBでは動作が重い）
+  - パソコンの性能による動作遅延と思われるため、メモリは16GB以上必要（8GBでは動作が重い）
+- エミュレータのシステム要件と操作方法は[こちら](https://developer.android.com/studio/run/emulator?hl=ja#requirements)
 
 <a id="anchor99"></a>
 ## メモ
 - [Kotolinで始めるAndroidアプリ入門](https://qiita.com/k-ysd/items/4efdecdfd60afe333a3a)
 - [新規プロジェクトを作成する方法](https://original-game.com/develop-android-app-2/)
 - [エミュレータの作成とコード実行](https://pouhon.net/android-avd/4698/)
+- [エミュレータのシステム要件と操作方法](https://developer.android.com/studio/run/emulator?hl=ja#requirements)
