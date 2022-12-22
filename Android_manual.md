@@ -72,7 +72,10 @@ netsh winhttp show proxy
 
 <a id="anchor4"></a>
 ## 仮想デバイス登録・起動
-Android Studio内で起動する仮想デバイス（仮想スマホ）を登録・起動する
+Android Studio内で起動する仮想デバイス（仮想スマホ）を登録・起動する。
+
+但し、仮想デバイスは動作が重い、画面が小さいなどのデメリットがあるため、検証する際は実際にスマホやタブレットをパソコンに直結して確認した方が良さそう。実機との接続については[こちら](https://pouhon.net/android-connection/4619/)を参照してください。
+
 - デフォルトで登録済みの仮想デバイスが右上に表示される
 
     ![image](https://user-images.githubusercontent.com/87625373/208850987-2613329f-e333-4c1b-8d5b-46ca8f8caf9c.png)
