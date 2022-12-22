@@ -6,3 +6,6 @@
 
 ## issue.md
 - 課題
+
+## Android_manual.md
+- Androidアプリ開発の手順
