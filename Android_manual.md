@@ -4,6 +4,7 @@
 - [Android Studio日本語化](#anchor2)
 - [プロジェクト作成](#anchor3)
 - [仮想デバイス登録・起動](#anchor4)
+- [Android Studioおすすめ設定](#anchor5)
 
 - [メモ](#anchor99)
 
@@ -88,6 +89,7 @@ Android Studio内で起動する仮想デバイス（仮想スマホ）を登録
   - エミュレータの日本語化は[こちら](https://pouhon.net/android-avd/4698/)
 - エミュレータ操作時に「system ui isn't responding」と表示され応答しない場合はしばらく操作せずに待つ
   - パソコンの性能による動作遅延と思われるため、メモリは16GB以上必要（8GBでは動作が重い）
+- [Android Studioおすすめ設定](https://pouhon.net/android-settings/4766/)をお好みで実施する
 
 <a id="anchor99"></a>
 ## メモ
