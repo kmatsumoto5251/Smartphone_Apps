@@ -83,6 +83,7 @@ Android Studio内で起動する仮想デバイス（仮想スマホ）を登録
 
     ![image](https://user-images.githubusercontent.com/87625373/208850058-73d30a5c-e716-4d03-8562-3dca1534ee0d.png)
 
+- 仮想デバイス操作可能となったら、システムやアプリの言語を日本語化する（エミュレータの操作方法や日本語化は[こちら](https://pouhon.net/android-avd/4698/)を参照）
 
 <a id="anchor99"></a>
 ## メモ
