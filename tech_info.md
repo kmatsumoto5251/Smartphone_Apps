@@ -146,4 +146,4 @@
 <a id="anchor99"></a>
 ## メモ
 - Jetpack Compose
-  - Androidでアプリを開発するための、新しいデザイン・ライブラリです。Jetpack Composeは、UIをコードで書くことができるので、XMLを使わずにUIを定義できます。Android Studio 4.1から利用可能です。
+  - Androidアプリ開発用のUIツール・ライブラリ
