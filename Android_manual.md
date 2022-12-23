@@ -104,3 +104,4 @@ Android Studio内で起動する仮想デバイス（仮想スマホ）を登録
 - [エミュレータのシステム要件と操作方法](https://developer.android.com/studio/run/emulator?hl=ja#requirements)
 - [HUAWEI製デバイスで実機テストするための準備](https://pouhon.net/android-connection/4619/)
 - [KotlinのWeb実行環境](https://developer.android.com/training/kotlinplayground?hl=ja)
+- [Androidアプリの画面作っていくには](https://qiita.com/cawmate_hitomi/items/35ae7c218090ae8f60b1)
