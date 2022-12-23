@@ -145,7 +145,5 @@
 
 <a id="anchor99"></a>
 ## メモ
-いろいろ教えてくれるチャットボット
-アカウント作成がいる
-
-[ChatGPT](https://chat.openai.com/chat)
+- Jetpack Compose
+  - Androidでアプリを開発するための、新しいデザイン・ライブラリです。Jetpack Composeは、UIをコードで書くことができるので、XMLを使わずにUIを定義できます。Android Studio 4.1から利用可能です。
