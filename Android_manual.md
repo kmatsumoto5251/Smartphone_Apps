@@ -1,4 +1,4 @@
-## Andoroidアプリを作成する1（Windows）
+## Andoroidアプリを作成するその１（Windows）
 ## 環境構築
 ## 目次
 - [Android Studioインストール](#anchor1)
