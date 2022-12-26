@@ -85,6 +85,8 @@
 ## 開発言語
 - 業界トレンド、使いやすさ、動作性能、可読性、学習コストを考慮するとiOSはSwift、AndroidがKotolinの一択となる
 - 他の選択肢としてiOSはObjective-C、AndoroidはJavaがあるが、いずれも古い言語であり上記言語に人気、使いやすさで劣る
+- SwiftはApple公式言語、KotolinはGoogle公式言語である
+- Objective-Cの後継がSwift、JavaベースのAndroidアプリ開発用言語がKotolinという理解で良さそう
 
 <a id="anchor12"></a>
 ## 【課題】フレームワーク
