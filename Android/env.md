@@ -3,7 +3,8 @@
 ## 目次
 - [Android Studioインストール](#anchor1)
 - [Android Studio日本語化](#anchor2)
-- [SDK追加](#anchor3)
+- [プロキシ設定](#anchor3)
+- [SDK追加](#anchor4)
 
 - [メモ](#anchor99)
 
@@ -47,6 +48,19 @@
 - 再起動が完了すると日本語になる。
 
 <a id="anchor3"></a>
+## プロキシ設定
+インターネット通信がプロキシを経由する場合はプロキシ設定を追加する。
+- プロジェクト作成前
+  - プラグイン > 画面上部の⚙ > HTTPプロキシ設定をクリックする。
+  - 
+
+![image](https://user-images.githubusercontent.com/87625373/209636427-12a2ccac-a318-478e-9662-0c1608dd8333.png)
+
+
+- プロジェクト作成後
+
+
+<a id="anchor4"></a>
 ## SDK追加
 SDKの追加が必要な場合は以下のメニューからダウンロード・インストールする。
 - プロジェクト作成前
