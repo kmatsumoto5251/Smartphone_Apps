@@ -119,6 +119,7 @@ SDKの追加が必要な場合は以下のメニューからダウンロード�
 
 <a id="anchor99"></a>
 ## メモ
+- [Android Developers](https://developer.android.com/?hl=ja)
 - [Kotolinで始めるAndroidアプリ入門](https://qiita.com/k-ysd/items/4efdecdfd60afe333a3a)
 - [新規プロジェクトを作成する方法](https://original-game.com/develop-android-app-2/)
 - [エミュレータの作成とコード実行](https://pouhon.net/android-avd/4698/)
