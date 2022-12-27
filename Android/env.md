@@ -1,5 +1,4 @@
-## Andoroidアプリを作成するその１（Windows）
-## 環境構築
+## Andoroidアプリ作成の準備（環境構築）
 ## 目次
 - [Android Studioインストール](#anchor1)
 - [Android Studio日本語化](#anchor2)
