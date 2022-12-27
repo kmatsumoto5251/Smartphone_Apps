@@ -5,6 +5,7 @@
 - [Android Studio日本語化](#anchor2)
 - [プロジェクト作成](#anchor3)
 - [仮想デバイス登録・起動](#anchor4)
+- [SDK追加](#anchor5)
 
 - [メモ](#anchor99)
 
@@ -96,6 +97,25 @@ Android Studio内で起動する仮想デバイス（仮想スマホ）を登録
 - エミュレータ操作時に「system ui isn't responding」と表示され応答しない場合はしばらく操作せずに待つ。
   - パソコンの性能による動作遅延と思われるため、メモリは16GB以上必要（8GBでは動作が重い）。
 - [Android Studioおすすめ設定](https://pouhon.net/android-settings/4766/)をお好みで実施する。
+
+<a id="anchor5"></a>
+## SDK追加
+SDKの追加が必要な場合は以下のメニューからダウンロード・インストールする。
+- ファイル > 設定 > システム設定 > Android SDKに遷移する。
+- 右下のShow Package Details にチェックを入れて詳細を表示する。
+- 上部のタブでPlatform/Toolsなど遷移し、必要なパッケージにチェックを入れOKをクリックする。
+- 確認ダイアログでOKをクリックするとダウンロード・インストールが始まる。
+- 完了画面で完了をクリックし終了する。
+
+![image](https://user-images.githubusercontent.com/87625373/209627683-74e4e79c-68f8-437f-8064-f4d886ee3314.png)
+
+![image](https://user-images.githubusercontent.com/87625373/209628753-61408929-0de0-423d-b8f8-401dabac9e60.png)
+
+
+
+
+
+
 
 <a id="anchor99"></a>
 ## メモ
