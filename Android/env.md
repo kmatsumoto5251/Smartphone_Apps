@@ -49,15 +49,20 @@
 <a id="anchor3"></a>
 ## SDK追加
 SDKの追加が必要な場合は以下のメニューからダウンロード・インストールする。
-- ファイル > 設定 > システム設定 > Android SDKに遷移する。
-- 右下のShow Package Details にチェックを入れて詳細を表示する。
-- 上部のタブでPlatform/Toolsなど遷移し、必要なパッケージにチェックを入れOKをクリックする。
-- 確認ダイアログでOKをクリックするとダウンロード・インストールが始まる。
-- 完了画面で完了をクリックし終了する。
+- プロジェクト作成前
+  - 画面右上のケバブメニュー（3つの点）からSDK Managerをクリックする。
+  - 右下のShow Package Details にチェックを入れて詳細を表示する。
+  - 上部のタブでPlatform/Toolsなど遷移し、必要なパッケージにチェックを入れOKをクリックする。
+  - 確認ダイアログでOKをクリックするとダウンロード・インストールが始まる。
+  - 完了画面で完了をクリックし終了する。
 
-![image](https://user-images.githubusercontent.com/87625373/209627683-74e4e79c-68f8-437f-8064-f4d886ee3314.png)
+![image](https://user-images.githubusercontent.com/87625373/209634147-d09ed3c9-8cfd-4e6a-8e01-49df391ec483.png)
 
-![image](https://user-images.githubusercontent.com/87625373/209628753-61408929-0de0-423d-b8f8-401dabac9e60.png)
+![image](https://user-images.githubusercontent.com/87625373/209634422-d8c37b29-9a5b-4b5b-83cb-ac4497884bcf.png)
+
+- プロジェクト作成後
+  - 左上のファイル > 設定 > システム設定 > Android SDKに遷移する。
+  - あとはプロジェクト作成前と同じ。
 
 <a id="anchor99"></a>
 ## メモ
