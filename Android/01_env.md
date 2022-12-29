@@ -30,7 +30,8 @@
 　　![image](https://user-images.githubusercontent.com/87625373/208795180-9e6c35bb-6bd2-40ec-8a89-fd5353562655.png)
 
 - [https://plugins.jetbrains.com/plugin/13964-japanese-language-pack------/versions](https://plugins.jetbrains.com/plugin/13964-japanese-language-pack------/versions)にアクセスする。
-- バージョンが一致するプラグインをダウンロードする（メジャーバージョンのみ一致すればよい）。
+- バージョンが一致するプラグインをダウンロードする。
+- メジャーバージョンのみ一致すればよい。（例のバージョンは213）
 
 　　![image](https://user-images.githubusercontent.com/87625373/208795818-2c21a8c4-6e28-4b61-92e8-241bc92142e1.png)
 
@@ -48,10 +49,11 @@
 
 <a id="anchor3"></a>
 ## プロキシ設定
-インターネット通信がプロキシを経由する場合はプロキシ設定を追加する。
+プロキシを使用しない場合は設定不要。
+プロキシを経由してインターネット通信を行う環境下ではプロキシ設定を追加する必要がある。
+Android StudioはOSのプロキシ設定を参照しないようなので、アプリ側でも独自に設定する。
 - プロジェクト作成前
   - プラグイン > 画面上部の⚙ > HTTPプロキシ設定をクリックする。
-  - 
 
 ![image](https://user-images.githubusercontent.com/87625373/209636427-12a2ccac-a318-478e-9662-0c1608dd8333.png)
 
