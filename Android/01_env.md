@@ -54,12 +54,18 @@
 Android StudioはOSのプロキシ設定を参照しないようなので、アプリ側でも独自に設定する。
 - プロジェクト作成前
   - プラグイン > 画面上部の⚙ > HTTPプロキシ設定をクリックする。
+  - 手動プロキシ構成にチェックし、IPアドレスやポート番号を入力後、OKをクリックする。
 
-![image](https://user-images.githubusercontent.com/87625373/209636427-12a2ccac-a318-478e-9662-0c1608dd8333.png)
+  ![image](https://user-images.githubusercontent.com/87625373/209893897-4b40b1f5-5bbd-49e4-a4e1-e12676bc3bbb.png)
 
+- プロキシサーバの情報はコマンドプロンプトやPowerShellから以下のコマンドで確認が可能。
+```
+netsh winhttp show proxy
+```
 
 - プロジェクト作成後
-
+  - ファイル > 設定 > システム設定 > HTTPプロキシ に遷移し、IPアドレスやポート番号を入力後、OKをクリックする。
+  ![image](https://user-images.githubusercontent.com/87625373/209636427-12a2ccac-a318-478e-9662-0c1608dd8333.png)
 
 <a id="anchor4"></a>
 ## SDK追加
@@ -71,13 +77,15 @@ SDKの追加が必要な場合は以下のメニューからダウンロード�
   - 確認ダイアログでOKをクリックするとダウンロード・インストールが始まる。
   - 完了画面で完了をクリックし終了する。
 
-![image](https://user-images.githubusercontent.com/87625373/209634147-d09ed3c9-8cfd-4e6a-8e01-49df391ec483.png)
+  ![image](https://user-images.githubusercontent.com/87625373/209634147-d09ed3c9-8cfd-4e6a-8e01-49df391ec483.png)
 
-![image](https://user-images.githubusercontent.com/87625373/209634422-d8c37b29-9a5b-4b5b-83cb-ac4497884bcf.png)
+  ![image](https://user-images.githubusercontent.com/87625373/209634422-d8c37b29-9a5b-4b5b-83cb-ac4497884bcf.png)
 
 - プロジェクト作成後
   - 左上のファイル > 設定 > システム設定 > Android SDKに遷移する。
   - あとはプロジェクト作成前と同じ。
+
+環境構築はここまで
 
 <a id="anchor99"></a>
 ## メモ
