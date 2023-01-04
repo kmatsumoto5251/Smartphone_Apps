@@ -67,7 +67,7 @@
 ## 開発用/検証用端末
 - AndroidはWindowsとMacのどちらでも開発可能だが、iOSはMacが必要となる。
 - MacであればAndroidとiOSに対応可能であることから開発用端末はMacが推奨となる。
-- AndroidアプリをWindowsで開発する場合はAndroid Studioのメモリ消費が多いため、メモリは16GB以上必要となる。
+- AndroidアプリをWindowsで開発する場合はAndroid Studioのメモリ消費が多いため、メモリは16GB以上必要かつ64bit版が推奨となる。
 - スマホアプリ開発業界でもMacユーザが優勢の様子
 - Macは搭載されているCPUでアプリケーションの動作が異なる可能性があるため、Mac用CPU（M1/M2チップ）とインテルCPUの最低2台があると良い
 - 検証用にAndroidスマホとiPhoneが必要
