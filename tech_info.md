@@ -90,10 +90,9 @@
 <a id="anchor12"></a>
 ## 【課題】フレームワーク
 - 複数のフレームワークを組み合わせるケースが多いようである
-- iOSは「SwiftUI + Jetpack Compose」、Androidは「Android Jetpack + Firebase」など
-- Androidについてはフレームワークなしという選択肢もあり、これは「Android SDK」を使うという意味っぽい
-- 「Android SDK」は厳密にはフレームワークではなく開発キットという扱いになるようであるが、違いがよく分からない
-- フレームワークを纏めるのは難しそうなので実務で理解度を深めてから再度まとめる
+- iOSは「SwiftUI + Jetpack Compose」はなど
+- AndroidはAndroid Studioにフレームワークの機能が備わっているため、フレームワークは「なし」または「Android Studio」になる
+- フレームワークとして紹介されることもある「Android SDK」は開発キットであるため、フレームワークではなく追加でインストールするライブラリ群というイメージ
 
 <a id="anchor13"></a>
 ## プロジェクト管理ツール
