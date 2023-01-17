@@ -7,6 +7,5 @@
 ## issue
 - 課題
 
-## Android_manual
+## Android
 - Androidアプリ開発の手順
-  - [これ](https://developer.android.com/courses/android-basics-compose/unit-1?hl=ja)をやればいいのでは？
