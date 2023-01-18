@@ -1,0 +1,337 @@
+## Android端末へのインストール
+
+作成したAndroidアプリをインストールには基本的に
+前回までのプロジェクト作成手順と同じ手順で作成する。
+
+- ここではNameのみ「HelloSample」を入力する。
+
+### strings.xmlに文字列を追加する
+- 左側ツールウィンドウから res/values/strings.xml を開き、下記コードを記述する。
+
+```
+<resources>
+    <string name="app_name">画面部品サンプル
+    </string>
+    <string name="tv_msg">お名前を入力してください
+    </string>
+</resources>
+```
+
+### レイアウトファイルを編集する
+- ツールウィンドウから res/layout/activity_main.xml を開く。
+- エディタウィンドウの右上にある[Code]ボタンをクリックしてテキストエディタを開く。
+
+  ![image](https://user-images.githubusercontent.com/87625373/211704876-7098b140-9ca1-44ee-96a2-eddc3a07d772.png)
+
+- 予め記述されていたコードは削除し、下記内容に書き換える。
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A1A9BA"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvLabelInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:text="@string/tv_msg"
+        android:textSize="25sp"/>
+</LinearLayout>
+```
+
+### アプリを起動する
+- コード入力完了後、画面右上の「▶」をクリックしアプリを起動する。
+- 下記のような画面が表示されればOK。
+
+  ![image](https://user-images.githubusercontent.com/87625373/211711183-ac86e098-8663-4c0c-8b7b-4731c1ccce9d.png)
+
+<a id="anchor2"></a>
+## 入力欄を画面に配置する
+- activity_main.xmlの最終行の閉じタグの上に以下のコードを追記する。
+
+```
+    ～省略～
+
+    <EditText
+        android:id="@+id/etInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:inputType="text"/>
+
+</LinearLayout>
+```
+
+- アプリを起動し、下記のような画面が表示されればOK。
+
+  ![image](https://user-images.githubusercontent.com/87625373/211722567-5ccde370-55c1-4cf3-9152-26ac04bb4ed0.png)
+
+- コード変更後の確認は都度アプリを起動する必要はなく、下記のように再実行ボタンをクリックすればリロードされる。
+
+  ![image](https://user-images.githubusercontent.com/87625373/211723100-5e056fcb-115f-4eb7-915a-786f5a513a4a.png)
+
+- 左側のボタンが再読み込み（リロード）で、右側が再起動（リスタート）となる。
+- 再起動が必要な場合にリロードした場合はエラーが表示されるため、リロードを試してエラーが出たらリスタートすればよい。
+
+<a id="anchor3"></a>
+## ボタンを画面に配置する
+デザインモードを使用してボタンを画面に配置する。
+
+### Strings.xmlに文字列情報を追加する
+- strings.xml「tv_msg」のタグの下に以下のコードを追加する。
+
+```
+<resources>
+    ～省略～
+    <string name="bt_save">保存</string>
+</resources>
+```
+
+### レイアウトファイルを編集する
+- activity_main.xmlを表示し、デザインモードに切り替える。
+
+  ![image](https://user-images.githubusercontent.com/87625373/211724978-fd8d61d1-3cba-4887-8abb-6b9e1a8a6c85.png)
+
+- 画面中央のデザインエディタが枠内にうまく表示されていない場合は拡大/縮小ボタンで調整する。
+
+  ![image](https://user-images.githubusercontent.com/87625373/211725205-9ba71c29-f6d6-47e9-adae-d3b3ce89f738.png)
+
+- Paletteから「Button」を選択し、デザインエディタのEditTextの下にドラッグする。
+
+  ![image](https://user-images.githubusercontent.com/87625373/211726500-4e89c2dc-1070-4f01-919d-129340459f8e.png)
+
+- 画面右上の「Attributes」で下記の属性を設定する。
+
+  |  属性  |  値  |
+  | ---- | ---- |
+  |  id  |  btSave  |
+  |  layout_width  |  wrap_content  |
+  |  layout_height  |  wrap_content  |
+
+  ![image](https://user-images.githubusercontent.com/87625373/211726933-4dcb9cd2-77f0-43e2-b393-526ad24fb2fd.png)
+
+- id変更時に確認ダイアログが表示された場合は「リファクタリング」をクリックする。
+
+  ![image](https://user-images.githubusercontent.com/87625373/211726000-ab576315-f1ce-43d7-86e3-f4412e325f77.png)
+
+- Transformsを閉じ、Common Attributesのtext欄の右側にあるボタンをクリックする。
+
+  ![image](https://user-images.githubusercontent.com/87625373/211727971-dee518b2-294f-46d2-a552-a0d799f896e9.png)
+
+- 「btSave」を選択しOKをクリックする。
+
+  ![image](https://user-images.githubusercontent.com/87625373/211728426-39584219-d1fa-4055-9ba6-95680588f96c.png)
+
+- コードモードに切り替え、ボタンのコードが追加されていることを確認する。
+
+  ![image](https://user-images.githubusercontent.com/87625373/211729312-f9974932-d30e-4646-91eb-5357dedad96c.png)
+
+- アプリを起動し、下記のような画面が表示されればOK。
+
+  ![image](https://user-images.githubusercontent.com/87625373/211729581-7281f876-05c6-495f-92dd-cfcf2807d819.png)
+
+<a id="anchor4"></a>
+## LinearLayoutを入れ子に配置する
+LinearLayoutを入れ子にし、縦横を組み合わせたレイアウトを実現する。
+ - 縦方向はandroid:orientation="vertical"
+ - 横方向はandroid:orientation="horizontal"
+
+### Strings.xmlに文字列情報を追加する
+- strings.xml「bt_save」のタグの下に以下のコードを追加する。
+
+```
+<resources>
+    ～省略～
+    <string name="cd_drink">ドリンク</string>
+    <string name="cd_food">フード</string>
+</resources>
+```
+
+### レイアウトファイルを編集する
+- activity_main.xmlをコードモードで表示し、EditTextタグとButtonタグの間に以下のコードを追加する。
+
+```
+  <EditText
+    ～省略～
+        android:inputType="text"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#df7401"
+        android:orientation="horizontal">
+        
+        <CheckBox
+            android:id="@+id/cdDrink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:background="#ffffff"
+            android:text="@string/cd_drink"/>
+        
+        <CheckBox
+            android:id="@+id/cdFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:text="@string/cd_food"/>
+    </LinearLayout>
+    
+    <Button
+    ～省略～
+```
+
+- アプリを起動し、下記のような画面が表示されればOK。
+
+  ![image](https://user-images.githubusercontent.com/87625373/211735405-5c3d41d9-6483-4bf6-878a-cc7b4b3ff44d.png)
+
+<a id="anchor5"></a>
+## ラジオボタンを配置する
+### Strings.xmlに文字列情報を追加する
+- strings.xmlに以下のコードを追加する。
+
+```
+<resources>
+    ～省略～
+    <string name="rb_male">男</string>
+    <string name="rb_female">女</string>
+</resources>
+```
+
+### レイアウトファイルを編集する
+- activity_main.xmlに以下のコードを追加する。
+
+```    
+    <LinearLayout
+    ～省略～
+    </LinearLayout>
+    
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#df7401"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+        <RadioButton
+            android:id="@+id/rbMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#ffffff"
+            android:text="@string/rb_male"/>
+        <RadioButton
+            android:id="@+id/rbFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:text="@string/rb_female"/>
+    </RadioGroup>
+
+    <Button
+    ～省略～
+```
+
+- アプリを起動し、下記のような画面が表示されればOK。
+
+  ![image](https://user-images.githubusercontent.com/87625373/211741924-f5b88b1b-7536-453e-9a0f-dfa1b43e8982.png)
+
+<a id="anchor6"></a>
+## 選択ボックスを配置する
+### Strings.xmlに文字列情報を追加する
+- strings.xmlに以下のコードを追加する。今回はstring-arryタグであることに注意する。
+
+```
+<resources>
+    ～省略～
+    <string-array name="sp_currylist">
+        <item>ドライカレー</item>
+        <item>カツカレー</item>
+        <item>ビーフカレー</item>
+        <item>チキンカレー</item>
+        <item>シーフードカレー</item>
+        <item>キーマカレー</item>
+        <item>グリーンカレー</item>
+    </string-array>
+</resources>
+```
+
+### レイアウトファイルを編集する
+- activity_main.xmlに以下のコードを追加する。
+
+```    
+    </RadioGroup>
+    
+    <Spinner
+        android:id="@+id/spCurryList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:entries="@array/sp_currylist"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"/>
+
+    <Button
+    ～省略～
+```
+
+- アプリを起動し、下記のような画面が表示されればOK。
+
+  ![image](https://user-images.githubusercontent.com/87625373/211744736-fd47177b-0c24-4d99-99c8-a0062486415b.png)
+
+<a id="anchor7"></a>
+## リストを表示する
+### Strings.xmlに文字列情報を追加する
+- strings.xmlに以下のコードを追加する。今回はstring-arryタグであることに注意する。
+
+```
+<resources>
+    ～省略～
+    <string-array name="lv_cocktaillist">
+        <item>ホワイトレディー</item>
+        <item>バラライカ</item>
+        <item>XYZ</item>
+        <item>ニューヨーク</item>
+        <item>マンハッタン</item>
+        <item>ミシシッピミュール</item>
+        <item>ブルーハワイ</item>
+        <item>マイタイ</item>
+        <item>マティーニ</item>
+    </string-array>
+</resources>
+```
+
+### レイアウトファイルを編集する
+- activity_main.xmlのButtonタグの後、LinearLayoutの閉じタグの前に以下のコードを追加する。
+
+```    
+    <Button
+        ～省略～
+        android:text="@string/bt_save" />
+    
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:entries="@array/lv_cocktaillist"/>
+
+</LinearLayout>
+```
+
+- アプリを起動し、下記のような画面が表示されればOK。
+
+  ![image](https://user-images.githubusercontent.com/87625373/211747075-4064a058-fabc-4015-aebf-7b665a02fe6d.png)
+
